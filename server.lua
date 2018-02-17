@@ -1,7 +1,7 @@
 local Proxy = module("vrp", "lib/Proxy")
 local Tunnel = module("vrp", "lib/Tunnel")
 
-local cfg = module("fuger", "config")
+local cfg = module("vrp_drugstonpc", "config")
 
 vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP","vrp_kekmememememes")

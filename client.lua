@@ -70,23 +70,23 @@ while true do
 										if s2 == 0 then
 											local randomResponse = math.random(1,7)
 												if randomResponse == 1 then tipReponse = "Someone is selling drugs"
-												elseif randomResponse ==2 then tipResponse = "They are trying to sell weed"
+												elseif randomResponse ==2 then tipResponse = "They are trying to sell drugs"
 												elseif randomResponse ==3 then tipResponse = "You have a street dealer operating"
-												elseif randomResponse ==4 then tipResponse = "Someone tried to sell weed"
+												elseif randomResponse ==4 then tipResponse = "Someone tried to sell drugs"
 												elseif randomResponse ==5 then tipResponse = "You need to deal with the drugs being sold"
-												elseif randomResponse ==6 then tipResponse = "Weed is being sold"
-												elseif randomResponse ==7 then tipResponse = "There is weed being offered for sale"
+												elseif randomResponse ==6 then tipResponse = "Drugs are being sold"
+												elseif randomResponse ==7 then tipResponse = "There are drugs being offered for sale"
 												end
   											TriggerServerEvent('vRP_drugNPC:police1',plyPos.x, plyPos.y, plyPos.z, street1, tipResponse)
             							elseif s2 ~= 0 then
 											local randomResponse = math.random(1,7)
 												if randomResponse == 1 then tipReponse = "Someone is selling drugs"
-												elseif randomResponse ==2 then tipResponse = "They are trying to sell weed"
+												elseif randomResponse ==2 then tipResponse = "They are trying to sell drugs"
 												elseif randomResponse ==3 then tipResponse = "You have a street dealer operating"
-												elseif randomResponse ==4 then tipResponse = "Someone tried to sell weed"
+												elseif randomResponse ==4 then tipResponse = "Someone tried to sell drugs"
 												elseif randomResponse ==5 then tipResponse = "You need to deal with the drugs being sold"
-												elseif randomResponse ==6 then tipResponse = "Weed is being sold"
-												elseif randomResponse ==7 then tipResponse = "There is weed being offered for sale"
+												elseif randomResponse ==6 then tipResponse = "Drugs are being sold"
+												elseif randomResponse ==7 then tipResponse = "There are drugs being offered for sale"
 												end
   											TriggerServerEvent('vRP_drugNPC:police2',plyPos.x, plyPos.y, plyPos.z, street1, street2, tipResponse)
  
